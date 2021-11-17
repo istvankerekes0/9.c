@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    color: black;
+    front-family: Arial
+}
+
+a,
+a:hover,
+a:visited,
+a:link {
+    color: #336600;
+}
+
+#cim {
+    display: block;
+    margin: auto;
+}
+
+p:first-of-type {
+    font-weight: bold;
+    font-style: italic;
+}

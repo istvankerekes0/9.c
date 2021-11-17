@@ -1,0 +1,54 @@
+p {
+    color: blue;
+    font: size 25px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    transition: width 3s;
+}
+
+a {
+    color: black;
+}
+
+img:hover {
+    border: darkblue;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+a:link {
+    color: blue;
+}
+
+p mark {
+    color: black;
+}
+
+mark:hover {
+    background-color: red;
+    color: white
+}
+
+#doboz {
+    /*HTML id tulaj.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: black thick solid;
+    border: border radius: 150px;
+    left: 15%;
+    top: 10%;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: snow;
+    transition: background-color 2s;
+    transition: 2s;
+}
